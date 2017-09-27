@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
       if value < smallest
         smallest = value
       end
+    end
     name_hash.select do |key , value|
       if value == smallest
         smallest_key = key
